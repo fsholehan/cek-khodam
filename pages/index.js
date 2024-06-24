@@ -47,6 +47,17 @@ const Home = () => {
             Nama Khodam: {khodamName}
           </p>
         )}
+        <p className="mt-2 flex items-center space-x-1">
+          <span>Source code:</span>
+          <a
+            className="text-blue-500 hover:underline"
+            href="https://github.com/fsholehan/cek-khodam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cek Khodam
+          </a>
+        </p>
       </div>
     </>
   );
